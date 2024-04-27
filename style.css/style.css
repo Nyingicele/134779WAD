@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.5) url('C:/xampp/htdocs/WAD/134779WAD/images/img1.jpg') center center fixed;
+    background-blend-mode: darken;
+    background-size: cover;
+    
+}
