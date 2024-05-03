@@ -1,7 +1,7 @@
-/* css/styles.css */
 
-/* Global Styles */
 body {
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;

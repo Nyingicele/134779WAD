@@ -4,18 +4,18 @@
     font-family: sans-serif;
     box-sizing: border-box;
 }
-.nav ul {
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-.nav ul li {
+.nav {
     display: inline;
     margin-right: 20px;
 }
 
-.nav ul li.active a {
+.nav .active a {
     color: yellow;
 }
 
