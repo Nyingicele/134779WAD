@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Car Hire</title>
     <link rel="stylesheet" href="style.css/style.css">
-    <a href="index.html">HOME</a> | <a href="about.html">ABOUT US</a> | <a href="services.html">SERVICES</a> | <a href="products.html">PRODUCTS</a> | <a href="contact.html">CONTACT US</a> | <a href="team.html">TEAM</a> | <a href="career.html">CAREER</a>
     <header>
-    
+    <a href="index.html">HOME</a> | <a href="about.html">ABOUT US</a> | <a href="services.html">SERVICES</a> | <a href="products.html">PRODUCTS</a> | <a href="contact.html">CONTACT US</a> | <a href="team.html">TEAM</a> | <a href="career.html">CAREER</a>
     </header>
+    <!--I linked all my pages after I finished creating each-->
+    
     <body>
         <div class="main">
             <nav>
