@@ -6,7 +6,7 @@
     <title>Car Hire</title>
     <link rel="stylesheet" href="style.css/style.css">
     <header>
-    <a href="index.php">HOME</a> | <a href="about.html">ABOUT US</a> | <a href="services.html">SERVICES</a> | <a href="products.html">PRODUCTS</a> | <a href="contact.html">CONTACT US</a> | <a href="team.html">TEAM</a> | <a href="career.html">CAREER</a>
+    <a href="index.php">HOME</a> | <a href="about.php">ABOUT US</a> | <a href="services.html">SERVICES</a> | <a href="products.html">PRODUCTS</a> | <a href="contact.html">CONTACT US</a> | <a href="team.html">TEAM</a> | <a href="career.html">CAREER</a>
     </header>
     <!--I linked all my pages after I finished creating each-->
     
