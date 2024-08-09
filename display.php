@@ -58,3 +58,14 @@ if(isset($_GET["DelId"])){
     <button class="btn btn-primary" ><a href="contact.php" class="text-light">Add User</a></button>
 
     <table class="table">
+      <thead>
+    <tr>
+      
+      <th >Fullname</th>
+      <th >Email</th>
+      <th >Phone</th>
+      <th >Address</th>
+      <th >Created At</th>
+      <th >Operation</th>
+    </tr>
+  </thead>
