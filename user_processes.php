@@ -13,3 +13,9 @@ $username = mysqli_real_escape_string($dbConn,$_POST["username"]);
 $password = mysqli_real_escape_string($dbConn,$_POST["password"]);
 $confirmpassword= mysqli_real_escape_string($dbConn,$_POST["confirmpassword"]);
 $usertype = mysqli_real_escape_string($dbConn,$_POST["usertype"]);
+//Check if the password and confirm-password are similar
+if ($password !=$confirmpassword) {
+    header("Location: ../Register.html");
+    exit();
+
+}
