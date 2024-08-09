@@ -13,3 +13,4 @@ $dbname = "test";
     }
     echo "Connected successfully";
 ?>
+
