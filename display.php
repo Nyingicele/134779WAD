@@ -9,7 +9,7 @@
 <body>
   <div class="thetop">
     <img src="images/logo.png" alt="Magari hub logo image" width="6%">
-    <a href="index.php" >Homepage</a>
+    <a href="index.php" >HOME</a>
     <a href="about.php">About us</a>
     <a href="team.php">Our team</a>
     <a href="product.php">Product/Services</a>
