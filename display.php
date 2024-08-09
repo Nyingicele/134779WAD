@@ -13,7 +13,7 @@
     <a href="about.php">ABOUT US</a>
     <a href="service.php">SERVICES</a>
     <a href="product.php">PRODUCTS</a>
-    <a href="goal.php">Our Goals</a>
+    <a href="contact.php">CONTACT US</a>
     <div class="thedropdown">
       <button>Join us</button>
       <div class="thecontent">
