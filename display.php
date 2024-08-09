@@ -36,3 +36,13 @@ if(isset($_GET["DelId"])){
 
   if ($conn->query($delete_message) === TRUE) {
       header("Location: displaydata.php");
+    } else {
+      echo "Error updating record: " . $conn->error;
+  }
+}    
+
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
