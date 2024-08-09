@@ -14,6 +14,7 @@
     <a href="service.php">SERVICES</a>
     <a href="product.php">PRODUCTS</a>
     <a href="contact.php">CONTACT US</a>
+     <a href="displaydata.php">DISPLAY</a>
      <a href="team.php">TEAM</a>
     <div class="thedropdown">
       <button>Join us</button>
