@@ -6,3 +6,21 @@
   <link rel="stylesheet" href="CSS/style.css">
   <title>HomePage</title>
 </head>
+<body>
+  <div class="thetop">
+    <img src="images/logo.png" alt="Magari hub logo image" width="6%">
+    <a href="index.php" >Homepage</a>
+    <a href="about.php">About us</a>
+    <a href="team.php">Our team</a>
+    <a href="product.php">Product/Services</a>
+    <a href="goal.php">Our Goals</a>
+    <div class="thedropdown">
+      <button>Join us</button>
+      <div class="thecontent">
+        <a href="Signuppage.php">Signup</a>
+        <a href="Signinpage.php">Signin</a>
+      </div>
+    </div>
+    <a href="contact.php">Contact us</a>
+    <a href="displaydata.php" class="active">DislpayData</a>
+  </div>
