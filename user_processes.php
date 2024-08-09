@@ -28,3 +28,8 @@ $user_insert = "INSERT INTO user's(fullname, username, email, password,usertype 
     header("Location: ../Login.html");
     exit();
  }
+else {
+    die("Failed to insert the new record" . $dbConn->error);
+ }
+}
+?>
