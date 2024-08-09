@@ -69,3 +69,13 @@ if(isset($_GET["DelId"])){
       <th >Operation</th>
     </tr>
   </thead>
+<tbody>
+
+  <?php
+
+  $selectdata= "SELECT * FROM registration ";
+  $sel_mes_res= $conn->query($selectdata);
+
+  if($sel_mes_res->num_rows> 0 ){
+    //output data for each row
+    while($sel_mes_row = $sel_mes_res->fetch_assoc()){
