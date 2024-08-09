@@ -79,3 +79,46 @@ if(isset($_GET["DelId"])){
   if($sel_mes_res->num_rows> 0 ){
     //output data for each row
     while($sel_mes_row = $sel_mes_res->fetch_assoc()){
+      
+      ?>
+      <tr>
+      
+      <td><?php print $sel_mes_row["fullname"]; ?></td>
+      <td><?php print $sel_mes_row["email"]; ?></td>
+      <td><?php print $sel_mes_row ["phone"]; ?></td>
+      <td><?php print $sel_mes_row["address"]; ?></td>
+      <td><?php print date('d-M-Y H:i', strtotime($sel_mes_row["created_at"])); ?></td>
+      <td><a href="update.php?id=<?php print $sel_mes_row["id"];?>" class="btn btn-success">Update</a></td>
+      <td><a href="?DelId=<?php print $sel_mes_row ["id"];?>" onclick="return confirm('Are you sure you want to delete this message from the database permanently?');" class="btn btn-danger">Delete</a></td>
+     
+      </tr>
+      <?php
+    }
+  }
+  
+  
+
+
+
+  
+  //SELECT DATA FROM MY TABLE
+
+  
+  ?>
+   
+  </tbody>
+  <thead>
+    <tr>
+      <th >Fullname</th>
+      <th >Email</th>
+      <th >Phone</th>
+      <th >Address</th>
+      <th >Created At</th>
+      <th >Operation</th>
+    </tr>
+  </thead>
+</table>
+    </div>
+</body>
+</html>
+      
