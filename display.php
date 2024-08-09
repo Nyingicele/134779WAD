@@ -11,8 +11,8 @@
     <img src="images/logo.png" alt="Magari hub logo image" width="6%">
     <a href="index.php" >HOME</a>
     <a href="about.php">ABOUT US</a>
-    <a href="team.php">Our team</a>
-    <a href="product.php">Product/Services</a>
+    <a href="service.php">SERVICES</a>
+    <a href="product.php">PRODUCTS</a>
     <a href="goal.php">Our Goals</a>
     <div class="thedropdown">
       <button>Join us</button>
