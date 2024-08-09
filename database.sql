@@ -11,3 +11,10 @@ CREATE TABLE IF NOT EXISTS users (
     email varchar(50) NOT NULL DEFAULT '',
     password varchar(50) NOT NULL DEFAULT '',
     userType varchar(30) NOT NULL DEFAULT '',
+    userImage varchar(50) NOT NULL DEFAULT 'userImage.jpg',
+    created bigint(10) NOT NULL DEFAULT 0,
+    updated bigint(10) NOT NULL DEFAULT 0,
+    UNIQUE KEY (username),
+    UNIQUE KEY (email),
+    PRIMARY KEY (userid)
+);
