@@ -26,3 +26,13 @@
     <a href="contact.php">Contact us</a>
     <a href="displaydata.php" class="active">DislpayData</a>
   </div>
+  <?php
+require_once ("php/db_connection.php");
+ 
+if(isset($_GET["DelId"])){
+  $DelId = mysqli_real_escape_string($conn, $_GET["DelId"]);
+
+  $delete_message = "DELETE FROM registration WHERE id='$DelId'";
+
+  if ($conn->query($delete_message) === TRUE) {
+      header("Location: displaydata.php");
